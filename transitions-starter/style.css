@@ -1,0 +1,75 @@
+.header {
+  background-image: url("banner.jpg");
+  height: 30vw;
+  background-size: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.sub-menu {
+  width: 150px;
+  border-left: 5px solid rgba(129, 225, 255, 0.63);
+  margin-left: 15vw;
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.sub-menu-item {
+  padding: 15px;
+  background-color: rgba(63, 117, 134, 0.3);
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.sub-menu-item a {
+  color: white;
+  display: inline;
+  text-decoration: none;
+}
+
+.sub-menu-item:hover {
+  cursor: pointer;
+  background-color: #4cc3c3;
+  padding: 20px;
+}
+
+.company-intro {
+  position: absolute;
+  width: 50%;
+  background-color: rgba(40, 70, 66, 0.4);
+  right: 10vw;
+  top: 50px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.65);
+  color: white;
+  padding: 2vw;
+}
+
+.company-intro > p {
+  font-size: x-large;
+}
+
+.footer {
+  display: flex;
+  margin: auto;
+  height: 4vw;
+  background-color: rgb(19, 48, 46);
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.clearfix {
+  margin-left: 25vw;
+  margin-right: 25vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  overflow: auto;
+}
+
+.larger-p {
+  font-size: larger;
+}
+
+#company-image {
+  float: right;
+}
